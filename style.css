@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: #eee;
+  background-color: orangered;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vh;
+}
+
+.slogan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5vh;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5vh;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10vh;
+  margin-left: 50vh;
+  margin-right: 50vh;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.guess {
+  margin-bottom: 2vh;
+}
+
+.btn {
+  border: solid;
+  border-color: white;
+  background-color: #4db000;
+  font-size: 2rem;
+  font-family: "Press Start 2P", sans-serif;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #2f610a;
+}
+
+.restart {
+  padding: 1vh;
+}
+
+.label-highscore {
+  font-size: 2rem;
+  margin-top: 3vh;
+  padding-left: 10vh;
+}
+
+.dropbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 1vh;
+  font-size: 2rem;
+  border: solid;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #4db000;
+  min-width: 160px;
+  text-align: center;
+  z-index: 1;
+  padding: 1vh;
+  line-height: 1.6;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #4db000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #2f610a;
+}
+/* .show {
+  display: block;
+} */
+.slogan {
+  padding-left: 5vh;
+  font-size: 2rem;
+}
+
+.top {
+  margin: 10vh;
+  font-size: 2rem;
+}
+
+.random {
+  border: solid;
+  padding: 2vh;
+  font-size: 2rem;
+  background-color: #4db000;
+}
+p {
+  font-size: 2rem;
+}
+.result {
+  border: solid;
+  padding: 2vh;
+  font-size: 2rem;
+  background-color: #4db000;
+}
+.answer {
+  text-align: center;
+  font-size: 2rem;
+  width: 10vh;
+  height: 10vh;
+  margin-bottom: 5vh;
+}
+
+.check {
+  padding: 1vh;
+}

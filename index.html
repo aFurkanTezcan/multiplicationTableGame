@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Multiplicating Game</title>
+  </head>
+  <body>
+    <header>
+      <button class="btn restart">Restart!</button>
+      <p class="label-highscore">
+        High Score = <span class="highscore">0</span>
+      </p>
+      <div class="dropdown" style="float: right">
+        <button class="btn dropbtn">How to play?</button>
+        <div class="dropdown-content">
+          <ul>
+            <li>
+              Write the answer of multiplication in the white box in 5 seconds
+              and click Check! or press Enter.
+            </li>
+            <li>
+              If your answer is right next multiplication will appear. If your
+              answer wrong game over. You can restart by clicking the restart
+              button.
+            </li>
+            <li>
+              You'll win 1 score point with every right answer. Reach 100 point
+              to win the game.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="slogan"><h1>Let's Learn Multiplication!</h1></div>
+    <main>
+      <section class="top">
+        <p class="label-score">Score = <span class="score">0</span></p>
+      </section>
+      <section class="middle">
+        <div class="random number1">Random</div>
+        <p>X</p>
+        <div class="random number2">Random</div>
+        <p>=</p>
+        <div class="result">?</div>
+      </section>
+      <section class="bottom">
+        <input type="number" class="answer" />
+        <button class="btn check">Check!</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
