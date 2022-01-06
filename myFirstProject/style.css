@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: #eee;
+  background-color: orangered;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vh;
+}
+
+.slogan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5vh;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5vh;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10vh;
+  margin-left: 50vh;
+  margin-right: 50vh;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.guess {
+  margin-bottom: 2vh;
+}
+
+.btn {
+  border: solid;
+  border-color: white;
+  background-color: #4db000;
+  font-size: 2rem;
+  font-family: "Press Start 2P", sans-serif;
+  color: white;
+}
+.btn:hover {
+  background-color: #2f610a;
+}
+
+.restart {
+  padding: 1vh;
+}
+
+.label-highscore {
+  font-size: 2rem;
+  margin-top: 3vh;
+  padding-right: 15vh;
+}
+
+.drpdwn {
+  padding: 1vh;
+}
+
+.instructionsDropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.slogan {
+  padding-left: 5vh;
+  font-size: 2rem;
+}
+
+.top {
+  margin: 10vh;
+  font-size: 2rem;
+}
+
+.random {
+  border: solid;
+  padding: 2vh;
+  font-size: 2rem;
+  background-color: #4db000;
+}
+p {
+  font-size: 2rem;
+}
+.result {
+  border: solid;
+  padding: 2vh;
+  font-size: 2rem;
+  background-color: #4db000;
+}
+.answer {
+  text-align: center;
+  font-size: 2rem;
+  width: 10vh;
+  height: 10vh;
+  margin-bottom: 5vh;
+}
+
+.check {
+  padding: 1vh;
+}
